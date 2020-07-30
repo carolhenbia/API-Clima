@@ -1,0 +1,57 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    width: fit-content;
+    height: fit-content;
+    float: inherit;
+    align-content: center;
+    margin:200px;
+}
+#ciudad {
+    font-size: 60px;
+    color: rgb(36, 39, 36);
+    font-weight: bold;
+}
+#temp {
+    font-size: 50px;
+    color: rgb(41, 43, 41);
+    font-weight: bolder;
+    animation: blinker 1s infinite;    
+}
+
+#humidity {
+    font-size: 40px;
+    color: rgb(41, 43, 41);
+    font-weight: bolder solid;
+    
+}
+
+#feels_like {
+    font-size: 40px;
+    color:  rgb(36, 39, 36);
+    font-weight: bolder solid;
+    
+}
+
+img { align-content: center;
+      width: 80px;
+    height: 80px;
+}
+@keyframes blinker {
+    50% {
+    opacity: 0;
+    }
+    }
+
+body {
+        background-image: url('fondos-nubes.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+
+#desc {
+    margin: 20px;
+}
